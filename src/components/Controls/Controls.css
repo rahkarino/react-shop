@@ -7,5 +7,29 @@
     margin: auto;
     border-radius: 10px;
     padding: 32px 0;
-    box-shadow: 0 0 25px 5px rgba(0,0,0,0.07);
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.07);
 }
+
+.total-price {
+    color: #701580;
+    font-weight: bold;
+}
+
+.order-btn {
+    display: block;
+    font: inherit;
+    padding: 5px;
+    margin: 10px 12px;
+    width: 100px;
+    background-color: #48964c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: all ease .5s;
+  }
+  
+  .order-btn:hover {
+      background-color: rgb(111, 211, 141);
+  }

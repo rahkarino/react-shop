@@ -5,8 +5,8 @@ const Builder = props => {
     return (
         <div className="builder">
             <div className="product-title">{props.title}</div>
-            <button>Add</button>
-            <button>Remove</button>
+            <button onClick={props.add}>اضافه</button>
+            <button onClick={props.sub}>حذف</button>
         </div>
     )
 }

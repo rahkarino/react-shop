@@ -21,4 +21,10 @@
   border: none;
   border-radius: 5px;
   outline: none;
+  cursor: pointer;
+  transition: all ease .5s;
+}
+
+.builder button:hover {
+    background-color: #b14fc2;
 }

@@ -1,0 +1,19 @@
+.btn {
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    margin: 10px;
+    padding: 5px 10px;
+    font: inherit;
+    cursor: pointer;
+}
+
+.success {
+    background: rgb(44, 168, 91);
+}
+
+.danger {
+    background: rgb(179, 56, 56);
+}
