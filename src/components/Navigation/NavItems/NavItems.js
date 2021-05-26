@@ -7,8 +7,8 @@ const NavItems = (props) => {
     <NavItem link='/'>
       Shopping
     </NavItem>
-    <NavItem link='/'>
-      Basket
+    <NavItem link='/account'>
+      Account
     </NavItem>
   </ul>;
 };
